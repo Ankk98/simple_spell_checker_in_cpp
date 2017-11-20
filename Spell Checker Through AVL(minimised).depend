@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1511101357 source:/home/yajurv/Documents/DATA STRUCTURES PROJECT/Spell Checker Through AVL(minimised)/main.cpp
+	<iostream>
+	<string.h>
+	<fstream>
+

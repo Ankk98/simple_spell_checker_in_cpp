@@ -1,0 +1,66 @@
+Data Structure project
+
+Team Members :
+Yajurv Bhatia
+Ankit Khandelwal
+Aman Bajpayi
+Rupal Grover
+
+Topic :
+Spell Checker
+
+Batch : F5
+
+Implemented Using :
+C++
+AVL Tree
+File Handling
+
+Introduction :
+
+
+
+
+
+
+
+
+
+Explanation :-
+
+AVL Tree :
+An AVL tree is a self-balancing binary search tree. It was the first such data structure to be invented. In an AVL tree, the heights of the two child subtrees of any node differ by at most one; if at any time they differ by more than one, rebalancing is done to restore this property. Lookup, insertion, and deletion all take time in both the average and worst cases, where is the number of nodes in the tree prior to the operation. Insertions and deletions may require the tree to be rebalanced by one or more tree rotations.
+
+Why AVL Tree : It is fast to traverse an find the required word to compare making program fast.
+
+usertext.txt : It is a text file containing the set of words to check for spelling.
+
+dictionary.txt : It is a text file with which target file is checked. It contains right words.
+
+main : First it creates a empty avl tree.
+Then it reads dictionary.txt and insert its words in avl tree word by word calling insertnode to insert words.
+Then it closes the file.
+
+Then it open user.txt file to read its words and check them word by word.
+Then it searches for the word in avl tree to compare it with words of dictionary by calling searchword.
+So, if the word is not found in dictionary then it prints the word is incorrect.
+If, it is found then it prints the word is found.
+Then it closes the file.
+
+strcompare : This function compares two words.
+
+rotateRight : This is used to rotate right avl tree when needed.
+
+rotateLeft : This is used to rotate right avl tree when needed.
+
+height : This function is used to calculate the height of the avl tree node.
+
+balancefactor : Used to calculate balance factor.
+
+update : updates every nodes balance factor and rotates them accordingly
+
+insertNode : This function is used to insert node to the avl tree whenever needed.
+
+inorder : used to traverse tree inorder.
+
+searchWord : This function is used to find whether a word is present in the dictionary or not.
